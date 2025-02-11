@@ -27,3 +27,14 @@ variable "min_capacity" {
 variable "instance_type" {
   default = "t3.medium"
 }
+
+# Variáveis para o namespace e o nome da service account
+variable "namespace" {
+  description = "O namespace no qual o service account será criado"
+  type        = string
+}
+
+variable "service_account_name" {
+  description = "O nome da service account que será criada"
+  type        = string
+}
