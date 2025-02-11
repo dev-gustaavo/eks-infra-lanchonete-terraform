@@ -1,3 +1,5 @@
 region        = "us-east-1"
-cluster_name  = "eks-lanchonete"
+cluster_name  = "eks-video-cut"
 vpc_cidr      = "10.0.0.0/16"
+namespace            = "default"
+service_account_name = "my-service-account"
